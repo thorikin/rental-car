@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Mobil | UMKM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #007bff;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .btn {
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #0056b3;
+        }
+        form input, form textarea, form button {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        form button {
+            background: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background: #0056b3;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Thorikin Rental Car</h1>
+        <p>Solusi transportasi terbaik Anda!</p>
+    </header>
+    <nav>
+        <a href="#beranda">Beranda</a>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#layanan">Layanan</a>
+        <a href="#kontak">Kontak Kami</a>
+        <a href="#reservasi">Reservasi</a>
+    </nav>
+    <section id="beranda" class="container">
+        <h2>Selamat Datang di Rental Mobil UMKM</h2>
+        <p>Kami menyediakan berbagai jenis mobil untuk kebutuhan perjalanan Anda. Nyaman, aman, dan terpercaya.</p>
+        <!-- Menambahkan gambar -->
+        <img src="brosur.jpg" alt="Brosur Rental Mobil">
+    </section>
+    <section id="tentang" class="container">
+        <h2>Tentang Kami</h2>
+        <p>Kami adalah UMKM yang berfokus pada layanan rental mobil dengan harga terjangkau. Dengan pengalaman bertahun-tahun, kami siap melayani Anda.</p>
+    </section>
+    <section id="layanan" class="container">
+        <h2>Layanan Kami</h2>
+        <div class="card">
+            <h3>Mobil Wuling Confero</h3>
+            <img src="wuling.jpg" alt="Mobil Wuling Confero">
+            <p>Harga: Rp 400,000/hari</p>
+            <p>Kapasitas: 7 orang</p>
+            <p>Fasilitas: AC, audio, nyaman</p>
+            <a href="#reservasi" class="btn">Sewa Sekarang</a>
+        </div>
+        <div class="card">
+            <h3>Mobil Grandmax Pickup</h3>
+            <img src="grandmax.jpg" alt="Mobil Grandmax Pickup">
+            <p>Harga: Rp 500,000/hari</p>
+            <p>Kapasitas: 2 ton</p>
+            <p>Fasilitas: AC, audio premium, bak terbuka, nyaman</p>
+            <a href="#reservasi" class="btn">Sewa Sekarang</a>
+        </div>
+        <div class="card">
+            <h3>Mobil T120 SS</h3>
+            <img src="t120.jpg" alt="Mobil T120 SS">
+            <p>Harga: Rp 300,000/hari</p>
+            <p>Kapasitas: 8 orang</p>
+            <p>Fasilitas: AC, audio premium, nyaman</p>
+            <a href="#reservasi" class="btn">Sewa Sekarang</a>
+        </div>
+        <div class="card">
+            <h3>Mobil Elf Isuzu Giga</h3>
+            <img src="isuzu.jpg" alt="Mobil Elf Isuzu Giga">
+            <p>Harga: Rp 1,000,000/hari</p>
+            <p>Kapasitas: 20 orang</p>
+            <p>Fasilitas: AC, audio premium, snack, nyaman</p>
+            <a href="#reservasi" class="btn">Sewa Sekarang</a>
+        </div>
+    </section>    
+    <section id="kontak" class="container">
+        <h2>Kontak Kami</h2>
+        <p>Lokasi: Gunung, Wates, Simo, Boyolali</p>
+        <p>Telepon: 082314951952</p>
+        <p>Email: muhammadzuniarto22@gmail.com</p>
+    </section>
+    <section id="reservasi" class="container">
+        <h2>Reservasi Online</h2>
+        <form action="#" method="post">
+            <input type="text" name="nama" placeholder="Nama Anda" required>
+            <input type="text" name="mobil" placeholder="Jenis Mobil" required>
+            <input type="date" name="tanggal" required>
+            <textarea name="catatan" placeholder="Catatan tambahan"></textarea>
+            <button type="submit">Kirim Reservasi</button>
+        </form>
+    </section>
+    <footer>
+        <p>2024 Rental Mobil UMKM. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
